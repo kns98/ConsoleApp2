@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-
+Vector3fExample.Main(new string[] {});
 /// <summary>
 /// Represents a 3D vector with double precision components.
 /// </summary>
@@ -194,8 +194,6 @@ public class Vector3fExample
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-
         // Basic Vector Operations
         Vector3f position = new Vector3f(3, 5, 7);
         Vector3f direction = new Vector3f(1, 0, 0);
